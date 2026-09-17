@@ -1,0 +1,29 @@
+# Creating variables and assigning values
+# Create a variable named x and store an integer (whole number) inside it
+x = 10
+# Create a variable named y and store a string (any characters between single or double quotes) inside it
+y = "hello"
+# Create a variable named z and store a float in it
+z = 3.5
+
+
+# Change the value stored in the x variable to a new string
+x = "cute"
+# Change the value stored in the y variable to a new boolean
+y = True
+# Change the value stored in the z variable to a different float
+z = 7.5
+
+question = input("your name")
+# Print the value the user entered from the previous section
+print(question)
+# Print the (current) value of the variable x
+print(x)
+# Print the type of the value stored in y
+print(type(y))
+
+course = "CIT"
+course_number = "1515"
+print("A" + course + course_number)
+assignment_number = 2
+print(f'Assignment {assignment_number} created')
